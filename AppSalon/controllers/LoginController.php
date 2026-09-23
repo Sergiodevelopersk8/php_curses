@@ -58,6 +58,14 @@ class LoginController {
             $email->enviarConfirmacion();
 
 
+            //crear usuario
+            $resultado = $usuario->guardar();
+
+            if($resultado){
+                header('Location: /mensaje');
+            }
+
+
             
         }
 
@@ -74,4 +82,23 @@ class LoginController {
 
         ]);
     }
-}
+
+
+    public static function mensaje(Router $router){
+
+    $router->render('auth/mensaje');
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}//fin de la clase

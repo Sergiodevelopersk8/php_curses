@@ -6,3 +6,9 @@ cd public php -S localhost:8000
 
 
 php -S localhost:8000 -t public
+
+
+http://localhost/phpmyadmin/index.php?route=/sql&db=appsalon_mvc&table=usuarios&pos=0
+
+
+https://mailtrap.io/sandboxes/4924138/messages/5717470426
