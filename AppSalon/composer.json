@@ -1,0 +1,21 @@
+{
+    "name": "sergiodevsk8/app-salon",
+    "description": "Proyecto php 8, mvc, sql, sass, gulp",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\": "./",
+            "Controllers\\":"./controllers",
+            "Model\\":"./models",
+            "Classes\\":"./class"
+        }
+    },
+    "authors": [
+        {
+            "name": "sergiodevsk8"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^7.1"
+    }
+}
